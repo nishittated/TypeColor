@@ -1,0 +1,122 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{{images/}}
+
+	\title{ REPORT ON TYPECOLOR GAME }
+	\author{
+		SUBMITTED BY:\\
+		NISHIT TATED   (15012101054)\\\\
+		\textit{Institute of Computer Science and Technology}\\
+		\textit{U.V. Patel College of Engineering}\\
+		\textit{Ganpat University}\\
+		\textit{Ahmedabad, Gujarat, India}
+	}
+
+\begin{document}
+
+	\maketitle
+
+	\begin{figure}
+		\centering
+		\includegraphics[height=5cm] {GNUICT_Logo.jpg}		
+	\end{figure}
+	\pagebreak
+\tableofcontents
+\pagebreak
+
+	\pagebreak
+	
+	\section{ABSTRACT}
+	
+	TypeColor is a game which can be played on electronic devices such as Mobile, PC, Laptop's, that is on screens or can be played on Hardware devices that is of 8051 Microcontroller. In this game, the main aim is to guess the color of the word \& to type it, instead of typing the word itself.Generally its a one player game. But at one time two players can also play. Then in this role of 2 players will be one of them will play the game while the other one, can help him to guess the correct color of the word. If guess color is right then score \& timer will be incremented. If any player guesses the wrong color then there will be no increment in score, but yes time will be flying on!. To make a high score in the game one must be aware of knowledge of colors \& should guess very effectively \& fast, keeping in mind of timer. When there is no time left at that time, the game is in a end state.
+	
+	
+	\section{HOW TO PLAY}
+	\begin{enumerate}
+		\item  In the back-end my logic has been implemented to run the game smoothly.
+		
+		\item  On the screen player will see 'Press Enter' then after pressing, the game starts.
+		
+		\item The task of the player will be to guess the correct color of any words \& not the word itself,\& type that color in the textbox present there.
+		
+		\item If the guessed color is right then both score \& timer will be incremented.
+		
+		\item But if the player guesses wrong color then no score will be increased, \& time will be flying on a regular basis.
+		
+		\item  The game ends when time becomes zero seconds.
+		
+		\item  Thus to play for a longer time the player needs to always keep the state of time in his mind \& guess the color right, type fast, \& make your score high \& beat others.
+	\end{enumerate}  
+
+\section{THE STRATEGY OF GAME}
+\begin{enumerate}
+	\item In this game there is no specific guess limits, that is a player can guess at his levels \& can move further in the game.
+	
+	\item But the main thing is the timer!
+	
+	\item If you want to increase your score, you need to guess the color right \& type it rightly into the textbox provided there on screen.
+	
+	\item If you guess correctly then score \& timer will be incremented.
+	
+	\item If guess wrong then timer will be flying as it is, thus one must be aware of time \& play according to that.
+\end{enumerate}
+
+\section{SOLUTION DESIGN}
+\begin{enumerate}
+	
+	\item Formulating a colors in a list.
+	
+	\item The actual method which does the logical reasoning, whether the color typed by the user matches the existing color present in the list or not , if yes , increment score \& timer by a specific lap of interval \& this should be continued as a cycle till the game doesn't end.
+	
+	\item If color typed by the user doesn't match the color present in the list then I have set as there will be no increment in score, but yes the timer will be decrement as usual by one \& at the end when time left is zero the game will end.
+	
+	\item One note: In both the cases that is whether color typed is correct or not the timer will be decrementing as usual by one,(increments only if color guessed is right) \& thus user/player needs to be fast to make as much as possible high score \& thus this makes the game more interesting, attractive \& enjoyable.  
+\end{enumerate}
+
+\section{WHAT HAPPEN WHEN USER GUESS OR TYPE WRONG COLOR??}
+\begin{enumerate}
+	\item When it is played by the children, the real fascination  from TypeColor comes from the fact that incorrect guesses are recorded by incrementing nothing but just decrementing a timer \& thus it reaches at a stage where the game is going to be end.
+	
+	\item For each incorrect guess or typed incorrectly, the score will not increment but yes the timer will be as usual decrementing \& the game will be moving furtherly with the same cycle \& when time left is zero the game will be end. 
+\end{enumerate}
+
+\section{HOW THE GAME WILL END!!}
+\begin{enumerate}
+	\item The main key which will decide the end of the game is a timer.
+	\item The timer will decrease as usual whether you have typed the correct color or not. If color typed is right then timer will increment by a specific lap of interval (+2).
+	
+	\item But if color types is wrong or guessed wrong then as usual timer will be decrementing by one.
+	
+	\item Thus at last when time left = 0 becomes then at that point the game will be end \& there will be no further shuffling of colors.
+\end{enumerate}	
+
+\section{MODULES}
+
+\begin{enumerate}
+	\item METHODS:
+	
+	\begin{itemize}
+		\item def startGame()
+		\item def nextColour()
+		\item def countdown()		
+	\end{itemize}
+\end{enumerate}
+
+\newpage
+\section{OUTPUT}
+ 
+\begin{figure} [H]
+		\includegraphics [width=4in]{1-MainPage.png} \\\\\\\\
+		\includegraphics [width=4in]{2.png}		\\\\\\\\
+		\includegraphics[width=4in]{3.png}
+\end{figure}
+
+\pagebreak
+
+\section{CONCLUSION}
+In the conclusion, a program that can rapidly count the correctly guessed or typed color frequencies of a known color list can accurately guess a color very similar to a words in a colors which we heard in our daily life, if not more so. 5
+
+\section{FUTURE SCOPE}
+This game can have varied applications in the context of color formation, color puzzles, switching of colors \& any type of color context applications.Its knowledge can be valuable to many other games like WHEEL, FLOW FREE, PIANO TILES, 8 BALL POOL, SCRABBLE etc.We can also have an investigation of very popular and commonly used colors in most of the words. Make a frequency distribution in graph out of it. The underlying mathematical concepts are Data Collection and Analysis,Presentation and Interpretation, Combinations which can have lot of implications in language processing and study of graphs and testing conjectures. The most common color is blue \& thus having large usage, \& methodological impact visionarie of colors.
+\end{document} 
