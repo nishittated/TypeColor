@@ -8,7 +8,11 @@ Download from here: https://github.com/nishittated/TypeColor
 
 # Developed By:  Nishit Tated
 
-# Support or Contact
+# Support or Contact - Let's become friend
+Instagram 
+GitHub
+Facebook
+
 
 * Instagram: https://www.instagram.com/nishit.tated/
 * Facebook : https://www.facebook.com/nishit.tated
