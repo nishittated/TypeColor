@@ -15,15 +15,31 @@
 * If the guessed color is right then both score & timer will be incremented.
 * But if the player guesses wrong color then no score will be increased, & time will be flying on a regular basis.
 * The game ends when time becomes zero seconds.
-* Thus to play for a longer time the player needs to always keep the state of time in his mind & guess the color right, type fast, & make
-your score high & beat others.
+* Thus to play for a longer time the player needs to always keep the state of time in his mind & guess the color right, type fast, & make your score high & beat others.
+
+# How The Game Will End
+* The main key which will decide the end of the game is a timer.
+* The timer will decrease as usual whether you have typed the correct color or not. 
+* If color typed is right then timer will increment by a specific lap of interval (+2).
+* But if color typed is wrong or guessed wrong then as usual timer will be decrementing by one.
+* Thus at last when time left = 0 becomes then at that point the game will be end & there will be no further shuffling of colors.
 
 
 <img src="https://github.com/nishittated/TypeColor/blob/master/1-MainPage.PNG" alt="Action" />
 
 <img src="https://github.com/nishittated/TypeColor/blob/master/2.PNG" alt="Demo" />
 
-Download from here: https://github.com/nishittated/TypeColor
+
+# Download from here: https://github.com/nishittated/TypeColor
+
+
+# Future Scope
+* This game can have varied applications in the context of color formation, color puzzles, switching of colors & any type of color context applications.
+* Its logic can be valuable to many other games like WHEEL, FLOWFREE, PIANO TILES, 8 BALL POOL, SCRABBLE etc.
+* We can also have an investigation of very popular and commonly used colors in most of the words.
+* Make a frequency distribution in graph out of it. 
+* The underlying mathematical concepts are Data Collection and Analysis,Presentation and Interpretation, Combinations which can have lot of implications in language processing and study of graphs and testing conjectures. 
+* The most common color is blue & thus having large usage, & methodological impact visionarie of colors.
 
 # Developed By:  Nishit Tated
 
