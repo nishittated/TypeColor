@@ -1,1 +1,1 @@
-Require details about this software. 
+Require details about this software - LATEX
