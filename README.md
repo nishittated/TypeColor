@@ -1,5 +1,5 @@
 # TypeColor
-
+ 
 # TypeColor is a game developed in Python with tkinter.
 
 # Abstract
