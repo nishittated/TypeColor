@@ -1,7 +1,7 @@
 import tkinter      #for creating a GUI... 
 import random       #for generating random no's
  
-#the list of possible colour.  
+#the list of possible colour.   
 colours = ['Red','Blue','Green','Pink','Black','Yellow','Orange','Gold', 'White','Purple','Brown','Navy', 'Fuchsia','Grey','Olive','Teal','Cyan','Maroon','Lime','Indigo','Aqua','Silver','Magenta']
 #the player's score, initially 0.
 score=0
