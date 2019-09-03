@@ -1,1 +1,1 @@
-Require details about this software - LaTeX 
+Require details about this software - LaTeX for documenting.
