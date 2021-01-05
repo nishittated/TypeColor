@@ -1,6 +1,7 @@
 import tkinter      #for creating a GUI... 
 import random       #for generating random no's
- 
+from PIL import ImageTk  #for adding the background image
+
 #the list of possible colour.   
 colours = ['Red','Blue','Green','Pink','Black','Yellow','Orange','Gold', 'White','Purple','Brown','Navy', 'Fuchsia','Grey','Olive','Teal','Cyan','Maroon','Lime','Indigo','Aqua','Silver','Magenta']
 #the player's score, initially 0.
@@ -67,6 +68,8 @@ root = tkinter.Tk()
 root.title("NIT-TCCANTW")
 #set the size.
 root.geometry("575x300")
+root.bg = ImageTk.PhotoImage(file="12222.jpg")
+root.bg_image=tkinter.Label(root,image=root.bg).place(x=0,y=0)
 
 #add an instructions label.
 #instructions = tkinter.Label(input(""))
