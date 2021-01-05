@@ -1,12 +1,13 @@
-import tkinter      #for creating a GUI...
+import tkinter      #for creating a GUI... 
 import random       #for generating random no's
+from PIL import ImageTk  #for adding the background image
 
-#the list of possible colour.
+#the list of possible colour.   
 colours = ['Red','Blue','Green','Pink','Black','Yellow','Orange','Gold', 'White','Purple','Brown','Navy', 'Fuchsia','Grey','Olive','Teal','Cyan','Maroon','Lime','Indigo','Aqua','Silver','Magenta']
 #the player's score, initially 0.
 score=0
 #the game time left, initially 30 seconds.
-timeleft=30
+timeleft=30 
 
 #a function that will start the game.
 def startGame(event):
@@ -29,7 +30,7 @@ def nextColour():
     if timeleft > 0:
 
         #...make the text entry box active.
-        e.focus_set()
+        e.focus_set() 
 
         #if the colour typed is equal to the colour of the text...
         if e.get().lower() == colours[1].lower():
@@ -67,6 +68,8 @@ root = tkinter.Tk()
 root.title("NIT-TCCANTW")
 #set the size.
 root.geometry("575x300")
+root.bg = ImageTk.PhotoImage(file="12222.jpg")
+root.bg_image=tkinter.Label(root,image=root.bg).place(x=0,y=0)
 
 #add an instructions label.
 #instructions = tkinter.Label(input(""))

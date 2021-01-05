@@ -1,5 +1,5 @@
 # TypeColor
-
+ 
 # TypeColor is a game developed in Python with tkinter.
 
 # Abstract
@@ -20,7 +20,7 @@
 # How The Game Will End
 * The main key which will decide the end of the game is a timer.
 * The timer will decrease as usual whether you have typed the correct color or not. 
-* If color typed is right then timer will increment by a specific lap of interval (+2).
+* If color typed is right then timer will increment by a specific lap of interval (+2). 
 * But if color typed is wrong or guessed wrong then as usual timer will be decrementing by one.
 * Thus at last when time left = 0 becomes then at that point the game will be end & there will be no further shuffling of colors.
 
